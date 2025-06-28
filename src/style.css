@@ -1,0 +1,81 @@
+.navbar-brand img{
+    height: 40px;
+    overflow-x: hidden;
+    /* width: 60px !important; */
+}
+.nav-nm Link:hover{
+    color: #FFB433 !important;
+}
+.trend-row .card img{
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+}
+.marquee-wrapper {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-color: #d6d6d6;
+}
+
+.marquee-track {
+    display: flex;
+    animation: scroll-marquee 30s linear infinite;
+    width: max-content;
+}
+
+.marquee-track img {
+    height: 125px;
+    width: 210px;
+    object-fit: cover;
+}
+
+
+@keyframes scroll-marquee {
+    0% {
+        transform: translateX(0%);
+    }
+    
+    100% {
+        transform: translateX(-50%);
+    }
+}
+.footer-1{
+    background-color: black;
+    color: #d6d6d6;
+    overflow-x: hidden;
+
+}
+.footer-2{
+    overflow-x: hidden;
+}
+.footer-2 .icon{
+    gap: 20px;
+}
+.testimonial{
+    box-shadow: 0px 0px 5px #dddddd;
+    filter: drop-shadow(0px 0px 5px #b1b1b1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(180deg,#C562AF 60%,#B33791 40%);
+    color: #fff;
+    
+}
+
+.swipers{
+    background: linear-gradient(180deg,#6FE6FC,#e1fff522 60%);
+}
+@media(max-width:900px){
+    .testimonial{
+        width: 100%;
+    }
+}
+.banner{
+    background-color: #A0A66C;
+}
+.addsubtract{
+    display: flex;
+    flex-direction: column;
+    color: #B33791;
+}
+
+
